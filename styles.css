@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.link2{
+    color: #FFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 50px;
+    background: linear-gradient(180deg, #4675D9 0%, #8E3BBF 25.5%, #190072 100%);
+    margin-left: 50%;   
+}
+.hero{
+    width:auto;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #4675D9 0%, #8E3BBF 25.5%, #190072 100%);
+    padding:0% 10%;
+
+}
+.container{
+    width: 100%;
+    padding:10% 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px ;
+    background: #D9D9D969;
+
+}
+.upper{
+    font-size:20px;
+    color:#FFF;
+    text-decoration: none;
+    position:relative;
+    right: -25%;
+}
+.high{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.high img{
+    width:70% ;
+    margin-left:15%;
+}
+.high p{
+    text-align: center;
+    color:#FFF;
+    font-size:25px ;
+    margin:7% 0;
+}
+
+.input-line{
+    width: auto;
+    display:flex;
+    background-color: #FFF;
+}
+.line-image{
+    width:18%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.input-line img{
+    width:30px;
+  
+}
+.perso{
+    color:black;
+}
+#connexion{
+    margin-top:6%;
+}
+form{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size:110%;
+    background-color:#D9D9D9A8 ;
+}
+form input::placeholder{
+    padding-left: 5%;
+}
+
+.oublie{
+    width: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:5% 0;
+}
+.oublie a , label{
+    color:#FFF;
+    font-size: 80%;
+}
+.oublie a{
+    color:#FFF;
+}
+
+.souvenir{
+    width:50%;
+    display:flex;
+    flex-direction:row-reverse ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#check{
+    width: 10%;
+    height: 20px;
+}
+.btn{
+    width: 100%;
+    margin:2% 0;
+    padding:3% 0;
+    font-size: 90%;
+    color:#FFFF;
+    border-radius:10px;
+    background: #190072;
+    cursor:pointer;
+}
+form p{
+    text-align: center;
+    font-size:110%;
+    margin-bottom:3%;
+}
+form a{
+    text-decoration:none;
+    color: #190072;
+}
+
+@media screen and (min-width: 850px) {
+    .hero{
+        width:auto;
+        height: auto;
+        padding:4% 25%;
+    
+    }
+    .container{
+        width: 100%;
+        padding:3% 0;
+    
+    }
+    .upper{
+        font-size:30px;
+        right: -33.5%;
+    }
+    .high{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .high img{
+        width:120% ;
+        margin:0;
+    }
+    .high p{
+        text-align: center;
+        color:#FFF;
+        font-size:38px ;
+        margin:2% 0;
+    }
+    
+    .input-line{
+        width: auto;
+        display:flex;
+        background-color: #FFF;
+    }
+    .line-image{
+        width:18%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .input-line img{
+        width:75px;
+      
+    }
+    .perso{
+        color:black;
+    }
+    #connexion{
+        margin-top:6%;
+    }
+    form{
+        width:80%;
+        gap:30px;
+    }
+    form input{
+        font-size:150%;
+        background-color:#D9D9D9A8 ;
+    }
+    form input::placeholder{
+        padding-left: 7%;
+    }
+    
+    .oublie{
+        width: auto;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:5% 0;
+    }
+    .oublie a , label{
+        color:#FFF;
+        font-size: 140%;
+    }
+    .oublie a{
+        color:#FFF;
+    }
+    
+    .souvenir{
+        width:40%;
+        display:flex;
+        flex-direction:row-reverse ;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color:aquamarine; */
+    
+    }
+    #check{
+        width: 10%;
+        height: 20px;
+    }
+    .btn{
+        width: 100%;
+        margin:2% 0;
+        padding:3% 0;
+        font-size: 130%;
+        color:#FFFF;
+        border-radius:10px;
+        background: #190072;
+        cursor:pointer;
+    }
+    form p{
+        text-align: center;
+        font-size:180%;
+        margin-bottom:3%;
+    }
+    form a{
+        text-decoration:none;
+        color: #190072;
+    }
+    
+
+}

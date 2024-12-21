@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #FFF;
+  }
+  
+  .nav-links a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .link2 {
+    background-color: #4394FD;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  .image {
+    width: 80px;
+    margin-right: 20px;
+  }
+  
+  .button {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  header {
+    height: 600px;
+    background-image: url('Images/fleur (1).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .lis {
+    text-decoration: none;
+  }
+  
+  .text-box {
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 600px;
+    background-color: rgba(241, 236, 236, 0.5);
+  }
+  
+  .text-box > div {
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-box p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .book-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .book-item {
+    flex: 1 1 30%;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .book-image {
+    width: 150px;
+    height: 220px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .book-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-btn {
+    display: inline-block;
+    
+    padding: 10px 20px;
+    background-color: #d97a1b;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #b16515;
+
+  }
+  
